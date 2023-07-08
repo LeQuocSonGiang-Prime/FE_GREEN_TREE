@@ -1,0 +1,42 @@
+.wrapperNotFound {
+    background:  url("https://www.thesill.com/_nuxt/img/notfound-bg.ecc2ffa.png");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+
+.wrapperNotFound p {
+    color: black;
+    font-size: 15px;
+    width: 500px;
+}
+
+.wrapperNotFound .buttons .btn {
+    background: transparent;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid white;
+    color: royalblue;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 130px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.wrapperNotFound .buttons .btn1 {
+    background: #245953;
+    color: white;
+}
+
+.wrapperNotFound .buttons .btn1:hover {
+    background: transparent;
+    color: #000;
+    border: 1px solid black;
+}
